@@ -15,7 +15,7 @@ When executing the `main.py` file, output example : \
 
 I used `notify-send` package in `pacman package manager` to parse the verse in it.
 
-Finally I editied my [i3blocks config file](https://github.com/MateBerg/my_i3wm_i3blocks_configs/blob/main/i3blocks/config) to make the notification pops out when I press on i3blocks desired label by adding \
+Finally I editied my [i3blocks config file](https://github.com/MateBerg/my_i3wm_i3blocks_configs/blob/main/i3blocks/config) to make the notification pops out when I press on i3blocks desired label by adding:
  ```
  [separator]
 [name]
