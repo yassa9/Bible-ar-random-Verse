@@ -9,10 +9,17 @@ Then I formatted the `.json` file of whole book verses, turned it into `.txt` fi
 `the verse`, `book name`, `chapter` & `verse number` 
 
 After that, the process of coding python file to read a random line from `23145` ( 1st verse in Matthew book in new testament ) to line `31103` ( obviously the last ) , however you can edit it to `1 ~ 31103` to read both old & new testaments.\
-When executing the `main.py` file, output example : 
+When executing the `main.py` file, output example : \
 `"وَلَمَّا قَالَ هَذَا تَقَدَّمَ صَاعِدًا إِلَى أُورُشَلِيمَ. ( لُوقَا ١٩ : ٢٨ ) "
 `
 
 I used `notify-send` package in `pacman package manager` to parse the verse in it.
 
-Finally I editied my [i3blocks config file](https://github.com/MateBerg/my_i3wm_i3blocks_configs/blob/main/i3blocks/config) to make the notification pops out when I press on i3blocks desired label
+Finally I editied my [i3blocks config file](https://github.com/MateBerg/my_i3wm_i3blocks_configs/blob/main/i3blocks/config) to make the notification pops out when I press on i3blocks desired label by adding \
+ ```
+ [separator]
+[name]
+command=echo "Random Verse"; i3-msg exec python3 [YOUR_PATH]/main.py
+interval=once
+ ```
+ 
