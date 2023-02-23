@@ -22,4 +22,7 @@ Finally I editied my [i3blocks config file](https://github.com/MateBerg/my_i3wm_
 command=echo "Random Verse"; i3-msg exec python3 [YOUR_PATH]/main.py
 interval=once
  ```
+ Notification ex. : ![verse](https://user-images.githubusercontent.com/69548206/220806182-785925ac-d65d-4ac3-8723-28a5d62c378e.png)
+
+ 
  
