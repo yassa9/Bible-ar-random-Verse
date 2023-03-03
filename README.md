@@ -23,8 +23,7 @@ command=echo "Random Verse"; i3-msg exec python3 [YOUR_PATH]/main.py
 interval=once
  ```
  Notification example: \
- ![1677118102](https://user-images.githubusercontent.com/69548206/220806646-18876d9b-e7f9-45df-bb34-23697167fdd9.png)
-
+![image](https://user-images.githubusercontent.com/69548206/222825807-09fe8df8-bcd9-40bf-bf18-d74359438dec.png)
 
  
  
