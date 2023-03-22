@@ -14,7 +14,8 @@ verse_rand = random.randint(23145 , 31103)
 verse = verse_rand-23145
 
 # Define the path to the CSV file
-csv_path = "/home/yassa/.scripts/bible/verse_stats.csv"
+# If it gave a error, use the full path in your machine
+csv_path = "verse_stats.csv"
 
 with open("verses.txt") as file :
     content = tuple(file)[verse_rand]
